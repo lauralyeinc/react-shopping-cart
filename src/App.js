@@ -7,6 +7,7 @@ import Navigation from './components/Navigation';
 import Products from './components/Products';
 import ShoppingCart from './components/ShoppingCart';
 import { createContext } from 'jest-runtime';
+import CartContext from "./contexts/CartContext"; 
 
 function App() {
 	const [products] = useState(data);
